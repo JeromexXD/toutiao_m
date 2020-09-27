@@ -1,6 +1,3 @@
-/* 
- *  全局样式
- */
 @font-face {
   font-family: "iconfont";
   src: url('//at.alicdn.com/t/font_2103850_ldwc0rx2hnf.eot?t=1601189097165');
@@ -80,16 +77,4 @@
 }
 .icon-zuopin:before {
   content: "\e606";
-}
-body {
-  background-color: #f5f7f9;
-}
-.app-navbar {
-  background-color: #6495ED;
-}
-.app-navbar .van-nav-bar__title {
-  color: #ffffff;
-}
-.app-navbar .van-icon {
-  color: #ffffff;
 }
