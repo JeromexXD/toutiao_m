@@ -1,7 +1,13 @@
 <template>
     <div class="home-container">
        <van-nav-bar class="app-navbar">
-         <van-button class="search-btn" icon="search" type="info" round slot="title">搜索</van-button>
+         <van-button
+         class="search-btn"
+         icon="search"
+         type="info"
+         round slot="title"
+         to="/search"
+         >搜索</van-button>
        </van-nav-bar>
        <!-- 标签栏 -->
        <van-tabs class="channel-tabs" v-model="active">
